@@ -3,10 +3,13 @@
     margin: 0 auto;
     padding: 0;
 }
+body{
+    background-color: #f7f9fe;
+}
 a{
-    text-decoration: none; /* 去除默认的下划线 */
-    outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
-    color: #000; /* 去除默认的颜色和点击后变化的颜色 */
+    text-decoration: none; 
+    outline: none; 
+    color: #000; 
 }
 .nav{
     text-align: center;
@@ -23,10 +26,30 @@ a{
     color: #d4ca0d;
 }
 .nav_and_cai{
-    /* background-color: #0000ff; */
-    width: 2vw;
+    width: 40px;
 }
 .nav_and{
     margin-top: 10px;
     display: flex;
+}
+.nav_and_one ul{
+   list-style-type: none;
+   background-color: #ffffff;
+   border-radius: 15px;
+   border:solid 1px rgb(227,232,247);
+   position:absolute;
+}
+.nav_and_one ul li{
+    margin: 30px;
+    /* padding: 20px; */
+}
+
+.nav_and_two{
+    display: flex;
+}
+.nav_and_two div{
+    margin-left: 40px;
+}
+.nav_and_two div a{
+    font-size: 28px;
 }
