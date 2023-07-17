@@ -11,10 +11,12 @@ a{
     outline: none; 
     color: #000; 
 }
+
 .nav{
     text-align: center;
     margin-top: 10px;
 }
+
 .nav_hend{
     width: 98%;
     height: 30px;
@@ -25,8 +27,20 @@ a{
     padding-top: 3px;
     color: #d4ca0d;
 }
+
 .nav_and_cai{
     width: 2em;
+}
+
+.cai_ul{
+    display: none;  
+}
+.nav_and_one:hover .cai_ul{
+    display: block;
+}
+.cai_ul li:hover{
+    
+    background-color: aquamarine;
 }
 
 .nav_and{
@@ -41,8 +55,8 @@ a{
    position:absolute;
 }
 .nav_and_one ul li{
-    margin: 30px;
-    /* padding: 20px; */
+    padding: 20px 40px 20px 40px;
+    border-radius: 7px;
 }
 
 .nav_and_two{
@@ -54,6 +68,7 @@ a{
 @media screen and (max-width:320px){    
     .nav_and_two div{display:none; }
     }
+
 .nav_and_two div a{
     font-size: 1.2em;
 }
