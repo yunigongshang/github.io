@@ -28,6 +28,7 @@ a{
 .nav_and_cai{
     width: 2em;
 }
+
 .nav_and{
     margin-top: 10px;
     display: flex;
@@ -50,6 +51,9 @@ a{
 .nav_and_two div{
     margin-left: 40px;
 }
+@media screen and (max-width:320px){    
+    .nav_and_two div{display:none; }
+    }
 .nav_and_two div a{
     font-size: 1.2em;
 }
